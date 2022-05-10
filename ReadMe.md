@@ -13,4 +13,7 @@ java --module-path "C:\Program Files\javafx-sdk-18.0.1\lib" --add-modules javafx
 
 Other important ```--add-modules```:
 - ```javafx.fxml```
-- Example: ```javac --module-path "C:\Program Files\javafx-sdk-18.0.1\lib" --add-modules javafx.controls,javafx.fxml FXML_Project.java```
+- Example: 
+```ps1
+javac --module-path "C:\Program Files\javafx-sdk-18.0.1\lib" --add-modules javafx.controls,javafx.fxml FXML_Project.java
+```
